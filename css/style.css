@@ -213,6 +213,10 @@ main {
   padding: 180px 0 100px;
 }
 
+.benefits {
+  padding: 100px 0;
+}
+
 .about h2,
 .why-choose-us h2 {
   font-family: "Montserrat", sans-serif;
@@ -315,6 +319,11 @@ main {
   background-color: #1f47b1;
 }
 
+.service-area {
+  padding: 100px 0;
+  background-color: #1f47b1;
+}
+
 .service-title {
   margin-bottom: 50px;
   text-align: center;
@@ -366,6 +375,24 @@ main {
 }
 
 .service-desc h2 {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.service-area-desc {
+  padding: 40px 15px;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.service-area-desc h2 {
+  margin-bottom: 1.5rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -451,6 +478,10 @@ main {
 
 .why-choose-us {
   padding: 100px 0;
+}
+
+.why {
+  padding: 0;
 }
 
 .why-choose-us h3 {
@@ -629,6 +660,10 @@ main {
 .map-cta {
   margin: 50px 0;
   background-color: #1e40af;
+}
+
+.map {
+  margin: 0;
 }
 
 .map-cta h2 {
