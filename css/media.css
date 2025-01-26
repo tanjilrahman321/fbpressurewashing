@@ -33,6 +33,7 @@
   .about-two-img {
     margin-top: 30px;
     margin-left: 0px;
+    display: none;
   }
 
   .benefits {
