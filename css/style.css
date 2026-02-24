@@ -137,6 +137,13 @@ main {
   border-radius: 10px;
 }
 
+#markate-widget-contact,
+.form-wrapper form {
+  max-height: 600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 .form-wrapper h2 {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
