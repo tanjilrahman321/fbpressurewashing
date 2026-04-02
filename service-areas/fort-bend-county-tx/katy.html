@@ -73,26 +73,111 @@
 
     <body>
         <!-- banner start  -->
-        <main>
-            <header id="banner">
-                <div class="container">
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-xl-5 col-4">
-                            <a href="../../index.html">
-                                <img src="../../images/logo-light.png" width="100px" alt="logo" />
+                <header id="banner">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="/">
+                        <img src="/images/logo.png" width="100px" alt="logo" />
+                    </a>
+
+                    <!-- Navbar Toggler (Mobile) -->
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navbar Links and CTA -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto text-center gap-3">
+                            <!-- Services -->
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="servicesDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="/services/house-washing">House Washing</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/services/roof-cleaning">Roof Cleaning</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/services/gutter-cleaning">Gutter Cleaning</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/services/soft-washing">Soft Washing</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- Service Areas -->
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="/service-areas"
+                                    id="areasDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Service Areas
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="areasDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="/service-areas/brazoria-county-tx">
+                                            Brazoria County, TX
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/service-areas/fort-bend-county-tx">
+                                            Fort Bend County, TX
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/service-areas/harris-county-tx">
+                                            Harris County, TX
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/service-areas">View All Locations</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <!-- CTA Button -->
+                        <div class="d-none d-lg-block ms-auto">
+                            <a href="tel:832-568-4762" class="btn btn-primary cta-btn">
+                                832-568-4762
+                                <i class="fa-solid fa-phone-flip ms-1"></i>
                             </a>
                         </div>
-                        <div class="col-xl-6 col-8">
-                            <div class="text-end">
-                                <a href="tel:832-568-4762" class="primary-btn">
-                                    832-568-4762
-                                    <i class="fa-solid fa-phone-flip ms-1"></i>
-                                </a>
-                            </div>
+
+                        <!-- CTA Button (Visible in Mobile Menu) -->
+                        <div class="d-lg-none text-center mt-3">
+                            <a href="tel:832-568-4762" class="btn btn-primary w-100 cta-btn">
+                                832-568-4762
+                                <i class="fa-solid fa-phone-flip ms-1"></i>
+                            </a>
                         </div>
                     </div>
-                </div>
-            </header>
+                </nav>
+            </div>
+        </header>
+
+        <main>
 
             <section class="banner pb-5">
                 <div class="container">
